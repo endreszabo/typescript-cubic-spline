@@ -1,4 +1,4 @@
-class Spline {
+export class Spline {
   xs: number[];
   ys: number[];
   ks: Float64Array;
@@ -166,5 +166,3 @@ function swapRows(m: Float64Array[], k: number, l: number) {
   m[k] = m[l];
   m[l] = p;
 }
-
-export default Spline;

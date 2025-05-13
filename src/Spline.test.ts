@@ -1,4 +1,4 @@
-import Spline from "./Spline";
+import { Spline } from "./Spline";
 //const Spline = require('.');
 
 describe("spline", function () {
